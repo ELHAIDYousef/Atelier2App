@@ -1,14 +1,10 @@
 package com.enset.atelier2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,12 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn = findViewById(R.id.btnContinuer);
-
-        btn.setOnClickListener(view -> {
-            Toast.makeText(this,
-                    "Bienvenue dans l'application de gestion de syndic",
-                    Toast.LENGTH_SHORT).show();
+        Button btnContinuer = findViewById(R.id.btnContinuer);
+        btnContinuer.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, activity_dashboard.class);
+            startActivity(intent);
         });
     }
 }

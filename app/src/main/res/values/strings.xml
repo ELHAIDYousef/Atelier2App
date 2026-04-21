@@ -3,4 +3,19 @@
     <string name="bienvenue">Bienvenue</string>
     <string name="my_app_name">Application de gestion de syndic</string>
     <string name="btn_continuer">Continuer</string>
+
+    <!-- Dashboard -->
+    <string name="welcome">Bienvenue</string>
+    <string name="user_name">Mr/Mme</string>
+    <string name="solde_tresorerie">Solde de trésorerie</string>
+    <string name="travaux_en_cours">Travaux en cours</string>
+    <string name="reclamation">Réclamation</string>
+    <string name="a_proximite">À proximité</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_avatar">Avatar</string>
+    <string name="cd_solde">Solde</string>
+    <string name="cd_travaux">Travaux</string>
+    <string name="cd_reclamation">Réclamation</string>
+    <string name="cd_proximite">Proximité</string>
 </resources>
