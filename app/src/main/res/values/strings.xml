@@ -1,21 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MyApp3</string>
+
+    <!-- Atelier 2 -->
     <string name="bienvenue">Bienvenue</string>
     <string name="my_app_name">Application de gestion de syndic</string>
     <string name="btn_continuer">Continuer</string>
 
-    <!-- Dashboard -->
+    <!-- Atelier 3 — Dashboard -->
     <string name="welcome">Bienvenue</string>
     <string name="user_name">Mr/Mme</string>
     <string name="solde_tresorerie">Solde de trésorerie</string>
     <string name="travaux_en_cours">Travaux en cours</string>
     <string name="reclamation">Réclamation</string>
     <string name="a_proximite">À proximité</string>
-
-    <!-- Content descriptions -->
     <string name="cd_avatar">Avatar</string>
     <string name="cd_solde">Solde</string>
     <string name="cd_travaux">Travaux</string>
     <string name="cd_reclamation">Réclamation</string>
     <string name="cd_proximite">Proximité</string>
+
+    <!-- Atelier 4 — Reclamation screen -->
+    <string name="reclamations">Réclamations</string>
+    <string name="consulter_demandes">Ajouter et consulter les demandes</string>
 </resources>
